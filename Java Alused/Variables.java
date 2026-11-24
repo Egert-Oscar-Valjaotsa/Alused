@@ -13,8 +13,6 @@ public class Variables {
         snackCount = "15"; //VIGA! See on Stringiks tehud number
         */
 
-        int snackCount2 = 10; //deklareerime ja omistame väärtuse ühes reas
-
         int puppies = 2;
         System.out.println("puppies: " + puppies + ", avaivable snacks: " + snackCount);
 
