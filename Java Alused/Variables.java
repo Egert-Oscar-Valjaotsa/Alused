@@ -30,5 +30,17 @@ public class Variables {
         //boolean võib olla kas tru või fake
         boolean feedingTime = true;
         System.out.println("Is it feeding time? " + feedingTime);
+
+        //char on 16-bitiline täisarvutüüp, mis esindab ühte Unicode märki
+        char room = 'A'; // char 'A' tähistab ühte Unicdoe märki
+        System.out.println("Feeding room: " + room);
+
+        //String on objekt, mis esindab teksti
+        String keeper = "John"; // BTW suur algustäht tähistab, et tegemis on objektiga nt S-tring, S-ystem, V-airables 
+        System.out.println("Puppy keeper: " + keeper + ", feeding room: " + room);
+
+        final int MINUTES_PER_HOUR = 60; //final tähendab, et muutuja väärtust ei saa muuta
+        System.out.println("Minutes per hour: " + MINUTES_PER_HOUR);
+        //MINUTES_PER_HOUR = 61; //VIGA! final muutuja väärtust ei saa hiljem muuta
     }
 }
