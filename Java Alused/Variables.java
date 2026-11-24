@@ -81,6 +81,16 @@ public class Variables {
         System.out.println("Total price in BigDecimal: " + totalPrice);
         System.out.println("Total price in double: " + (0.10 + 0.20));
 
+        //HARJUTUS
+        String puppyName = "Dog";
+        int puppyAgeMonths = 50;
+        System.out.println("Dog name: " + puppyName + ", Dog age in months: " + puppyAgeMonths);
+
+        int maius = 11;
+        int kutsikas = 3;
+        System.out.println("Maius kutsika kohta: " + (maius / kutsikas) + ", Maius jääk: " + (maius % kutsikas) + ", keskmine koos murdosaga: " + (double)maius / kutsikas);
+
+
 
     }
 }
